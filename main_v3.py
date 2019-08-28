@@ -22,12 +22,12 @@ class App:
         self.titulo["font"] = ("Arial", "14", "bold")
         self.titulo.pack()     
 
-        self.resultado = Button(self.segundoContainer)
-        self.resultado["text"] = "Parar"
-        self.resultado["font"] = ("Arial", "11")
-        self.resultado["width"] = 12
-        self.resultado["command"] = self.pararLoop
-        self.resultado.pack()
+        self.parar = Button(self.segundoContainer)
+        self.parar["text"] = "Parar"
+        self.parar["font"] = ("Arial", "11")
+        self.parar["width"] = 12
+        self.parar["command"] = self.pararLoop
+        self.parar.pack()
   
 
     def pararLoop(self):
