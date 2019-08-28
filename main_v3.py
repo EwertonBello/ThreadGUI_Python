@@ -26,11 +26,11 @@ class App:
         self.resultado["text"] = "Parar"
         self.resultado["font"] = ("Arial", "11")
         self.resultado["width"] = 12
-        self.resultado["command"] = self.exibirResultado
+        self.resultado["command"] = self.pararLoop
         self.resultado.pack()
   
 
-    def exibirResultado(self):
+    def pararLoop(self):
         print("Parando...")
         t1.setTeste(False)
   
